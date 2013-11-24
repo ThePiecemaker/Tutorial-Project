@@ -3,7 +3,7 @@ import java.util.*;
  * Class Group's coding.
  * 
  * @author (Xander) 
- * @version (1)
+ * @version (1.1)
  */
 public class Group
 {
@@ -38,20 +38,20 @@ public class Group
         
     }
 
-public void setAge(int newAge){
+    public void setAge(int newAge){
     age = newAge;
-}
+    }
 
-public String getAge (){
+    public String getAge (){
     return age;
-}
+    }
 
-public String getName(){
+    public String getName(){
     return name;
-}
-public String toString(){
+    }
+    public String toString(){
     return "Your name is " + name + " and " + age + " years olds." 
-}
+    }
     
 
     
