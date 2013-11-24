@@ -22,36 +22,39 @@ public class Group
    
    
     
-    public void name(){
+    public void name()
+    {
         System.out.println("What is your name");
-        name = input.nextLine();
-        
+        name = input.nextLine()
         System.out.println("what is your age");
         age = input.nextInt();
         
     }
 
-    public void setName(String newName){
-        
+    public void setName(String newName)
+    {
        name = newName;
-       
-        
     }
 
-    public void setAge(int newAge){
+    public void setAge(int newAge)
+    {
     age = newAge;
     }
 
-    public String getAge (){
+    public String getAge ()
+    {
     return age;
     }
 
-    public String getName(){
+    public String getName()
+    {
     return name;
     }
-    public String toString(){
+    public String toString()
+    {
     return "Your name is " + name + " and " + age + " years olds." 
     }
+}
     
 
     
