@@ -16,14 +16,11 @@ public class Group
         name = "unknown";
         age = 0;
         name();
-        method();
+        
     }
 
    
-    public void method()
-    {
-        System.out.println("Your name is " + name + " and " + age + " years olds. ");
-    }
+   
     
     public void name(){
         System.out.println("What is your name");
@@ -51,6 +48,9 @@ public String getAge (){
 
 public String getName(){
     return name;
+}
+public String toString(){
+    return "Your name is " + name + " and " + age + " years olds." 
 }
     
 
