@@ -3,7 +3,7 @@ import java.util.*;
  * Class Group's coding.
  * 
  * @author (Xander) 
- * @version (1.1)
+ * @version (1.3)
  */
 public class Group
 {
@@ -50,6 +50,7 @@ public class Group
     {
     return name;
     }
+    
     public String toString()
     {
     return "Your name is " + name + " and " + age + " years olds." 
