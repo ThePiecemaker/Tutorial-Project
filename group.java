@@ -1,13 +1,13 @@
 import java.util.*;
 /**
- * Write a description of class Group here.
+ * Class Group's coding.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Xander) 
+ * @version (1)
  */
 public class Group
 {
-    // instance variables - replace the example below with your own
+    // instance variables - For creating name and age of the subject.
     private String name;
     private int age;
     private Scanner input;
